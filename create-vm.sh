@@ -24,7 +24,7 @@ sleep 30
 
 # Open endpoints
 
-if [ $VMPORTS != "" ]; then
+if [ "$VMPORTS" != "" ]; then
 	IFS=':' read -a PORTS <<< "$VMPORTS"
 	for i in "${PORTS[@]}"; do
 		echo "opening port $i ..."
