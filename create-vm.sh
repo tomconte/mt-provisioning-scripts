@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # This script will automate the creating and provisioning of an Azure VM
 # using the Azure CLI: http://azure.microsoft.com/en-us/documentation/articles/xplat-cli/
